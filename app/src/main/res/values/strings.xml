@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">CalibReader</string>
 
+    <string name="menu_invert_colors">Invert colors (white on black)</string>
     <string name="menu_reload">Reload</string>
     <string name="menu_settings">Server settings</string>
     <string name="menu_diagnostics">Server diagnostics</string>
@@ -40,6 +41,8 @@
     <string name="toast_external">Opened in browser</string>
     <string name="toast_blocked_scheme">Blocked a link that would launch another app.</string>
     <string name="toast_need_server">Set the Calibre server address first.</string>
+    <string name="toast_invert_on">White text on black background</string>
+    <string name="toast_invert_off">Normal colors</string>
 
     <string name="download_description">Downloaded from your Calibre library</string>
     <string name="download_channel_name">Library downloads</string>

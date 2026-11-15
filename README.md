@@ -6,7 +6,7 @@ server's own web application, and this project only adds a native frame, an
 allow-list, downloads, diagnostics and a settings screen.
 
 The app is built entirely on the Android framework. It has no AndroidX and no
-third-party runtime dependencies, so the whole surface can be audited in three
+third-party runtime dependencies, so the whole surface can be audited in four
 Java files.
 
 ## Requirements
@@ -145,8 +145,15 @@ when the configured address is not HTTPS.
 
 ## Diagnostics
 
-The overflow menu offers *Reload*, *Server settings*, *Server diagnostics*,
-*Open in browser*, *Copy address* and *Clear site data*. Diagnostics performs
+The overflow menu offers *Invert colors (white on black)*, *Reload*, *Server
+settings*, *Server diagnostics*, *Open in browser*, *Copy address* and *Clear
+site data*. The colour mode is remembered across launches and is off by
+default, so the normal appearance remains available. It works by injecting a
+stylesheet into the reader page: the page is inverted and its hue rotated back
+(its background is set to white so the filter renders it black), while images
+and video are inverted a second time so they keep their real colours. Media is
+compensated only once, so a `picture`/`img` pair and nested svg are not
+double-inverted. Diagnostics performs
 plain `GET` requests against the configured start page (e.g. `/app/`) and
 against `/opds`, `/manifest.json` and `/` at the origin root, then shows status
 code, latency, `Server` and `Content-Type` headers.

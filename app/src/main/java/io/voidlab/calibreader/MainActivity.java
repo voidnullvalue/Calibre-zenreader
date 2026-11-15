@@ -57,6 +57,7 @@ public class MainActivity extends Activity {
     public static final String EXTRA_SERVER_URL = "server_url";
 
     private ServerConfig config;
+    private ReaderAppearance appearance;
     private WebView webView;
     private ProgressBar progress;
     private View errorPanel;
@@ -70,6 +71,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         config = new ServerConfig(this);
+        appearance = new ReaderAppearance(this);
         io = Executors.newSingleThreadExecutor();
 
         webView = findViewById(R.id.webview);
@@ -187,7 +189,7 @@ public class MainActivity extends Activity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             s.setSafeBrowsingEnabled(true);
         }
-        webView.setBackgroundColor(Color.WHITE);
+        webView.setBackgroundColor(appearance.isInverted() ? Color.BLACK : Color.WHITE);
 
         CookieManager cookies = CookieManager.getInstance();
         cookies.setAcceptCookie(true);
@@ -244,6 +246,7 @@ public class MainActivity extends Activity {
             if (url != null && ServerConfig.isInScope(url, config.baseUrl())) {
                 config.setLastUrl(url);
             }
+            applyInversion();
         }
 
         @Override
@@ -479,6 +482,15 @@ public class MainActivity extends Activity {
         }
     }
 
+    // -------------------------------------------------------------- appearance
+
+    /** Re-applies the saved colour mode to the current page and background. */
+    private void applyInversion() {
+        boolean inverted = appearance.isInverted();
+        webView.setBackgroundColor(inverted ? Color.BLACK : Color.WHITE);
+        webView.evaluateJavascript(ReaderAppearance.injectionScript(inverted), null);
+    }
+
     // ---------------------------------------------------------------- settings
 
     private void showSettingsDialog(String prefill) {
@@ -599,8 +611,25 @@ public class MainActivity extends Activity {
     }
 
     @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem invert = menu.findItem(R.id.action_invert_colors);
+        if (invert != null) {
+            invert.setChecked(appearance.isInverted());
+        }
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        if (id == R.id.action_invert_colors) {
+            boolean inverted = !appearance.isInverted();
+            appearance.setInverted(inverted);
+            item.setChecked(inverted);
+            applyInversion();
+            toast(getString(inverted ? R.string.toast_invert_on : R.string.toast_invert_off));
+            return true;
+        }
         if (id == R.id.action_reload) {
             showReader();
             webView.reload();

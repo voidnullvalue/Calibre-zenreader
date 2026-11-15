@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+        android:id="@+id/action_invert_colors"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/menu_invert_colors" />
+    <item
         android:id="@+id/action_reload"
         android:title="@string/menu_reload" />
     <item
