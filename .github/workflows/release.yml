@@ -37,47 +37,56 @@ jobs:
       # (ANDROID_HOME=/usr/local/lib/android/sdk) with cmdline-tools,
       # platform-tools, platform android-35 and build-tools 35.0.0. The
       # third-party android-actions/setup-android action is not needed: its v3
-      # line is EOL (built for Node 20, now forced onto Node 24) and it always
-      # re-downloads a hardcoded cmdline-tools archive when the preinstalled
-      # revision differs from its 12266719 default, which is what failed the
-      # first run. Resolve sdkmanager from the image instead.
-      - name: Locate Android SDK
+      # line is EOL (built for Node 20, now forced onto Node 24) and it
+      # re-downloads a hardcoded cmdline-tools archive whenever the preinstalled
+      # revision differs from its default. Resolve the SDK and sdkmanager from
+      # the image instead, and install only what is actually missing.
+      - name: Set up Android SDK
         run: |
-          set -euo pipefail
-          sdk_root="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
-          if [ ! -d "${sdk_root}" ]; then
-            echo "::error::No Android SDK found at ${sdk_root}"
+          set -uo pipefail
+
+          sdk_root="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-}}"
+          if [ -z "${sdk_root}" ] || [ ! -d "${sdk_root}" ]; then
+            for candidate in /usr/local/lib/android/sdk "${HOME}/android-sdk" /opt/android-sdk; do
+              if [ -d "${candidate}" ]; then
+                sdk_root="${candidate}"
+                break
+              fi
+            done
+          fi
+          if [ -z "${sdk_root}" ] || [ ! -d "${sdk_root}" ]; then
+            echo "::error::No Android SDK found (ANDROID_HOME='${ANDROID_HOME:-}' ANDROID_SDK_ROOT='${ANDROID_SDK_ROOT:-}')"
             exit 1
           fi
-          sdkmanager=$(command -v sdkmanager || true)
-          if [ -z "${sdkmanager}" ]; then
-            sdkmanager=$(find "${sdk_root}/cmdline-tools" "${sdk_root}/tools" \
-              -type f -name sdkmanager 2>/dev/null | sort -V | tail -1)
-          fi
-          if [ -z "${sdkmanager}" ]; then
-            echo "::error::sdkmanager not found under ${sdk_root}"
-            exit 1
-          fi
+          echo "Using Android SDK root: ${sdk_root}"
           echo "ANDROID_HOME=${sdk_root}" >> "$GITHUB_ENV"
           echo "ANDROID_SDK_ROOT=${sdk_root}" >> "$GITHUB_ENV"
-          echo "$(dirname "${sdkmanager}")" >> "$GITHUB_PATH"
-          echo "Using sdkmanager: ${sdkmanager}"
-          "${sdkmanager}" --version
 
-      # compileSdk/targetSdk 35 per app/build.gradle. Install only what the image
-      # does not already provide, so a read-only SDK root cannot fail the job.
-      - name: Install Android platform and build-tools
-        run: |
-          set -euo pipefail
+          sdkmanager="$(command -v sdkmanager || true)"
+          if [ -z "${sdkmanager}" ]; then
+            sdkmanager="$(find "${sdk_root}" -maxdepth 4 -type f -name sdkmanager 2>/dev/null | sort -V | tail -n 1 || true)"
+          fi
+          if [ -n "${sdkmanager}" ]; then
+            echo "Using sdkmanager: ${sdkmanager}"
+            echo "$(dirname "${sdkmanager}")" >> "$GITHUB_PATH"
+          else
+            echo "No sdkmanager found under ${sdk_root}; relying on preinstalled packages."
+          fi
+
+          # compileSdk/targetSdk 35 per app/build.gradle.
           missing=()
-          [ -d "${ANDROID_HOME}/platforms/android-35" ] || missing+=("platforms;android-35")
-          [ -d "${ANDROID_HOME}/build-tools/35.0.0" ] || missing+=("build-tools;35.0.0")
+          [ -d "${sdk_root}/platforms/android-35" ] || missing+=("platforms;android-35")
+          [ -d "${sdk_root}/build-tools/35.0.0" ] || missing+=("build-tools;35.0.0")
           if [ "${#missing[@]}" -eq 0 ]; then
             echo "platforms;android-35 and build-tools;35.0.0 are already installed."
             exit 0
           fi
-          yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager --install "${missing[@]}"
+          if [ -z "${sdkmanager}" ]; then
+            echo "::error::Missing ${missing[*]} and no sdkmanager available to install them."
+            exit 1
+          fi
+          yes | "${sdkmanager}" --licenses >/dev/null 2>&1 || true
+          "${sdkmanager}" --install "${missing[@]}"
 
       - name: Cache Gradle
         uses: actions/cache@v4
