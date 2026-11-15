@@ -1,0 +1,170 @@
+{
+  "url": "http://192.168.88.89:8090/app/",
+  "title": "library \u00b7 Calibre Zen",
+  "events": [
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/",
+      "mime": "text/html"
+    },
+    {
+      "t": "nav",
+      "url": "http://192.168.88.89:8090/"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/zen/fonts/inter/Inter-Regular.ttf",
+      "mime": "font/ttf"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/ajax-setup?1794676888663",
+      "mime": "application/json"
+    },
+    {
+      "t": "nav",
+      "url": "about:blank"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.png",
+      "mime": "image/png"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/interface-data/update?1794676888719",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/interface-data/books-init?library_id=library&sort=timestamp.desc&1794676888723",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.png",
+      "mime": "image/png"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-manifest/1/MOBI?library_id=library&1794676888926",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/cover/1/library?library_id=library&1794676889056",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "blob:http://192.168.88.89:8090/5a1ae25f-72b6-4027-97fb-bc1eb0e4a036",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/images/00003.jpg?library_id=library&1794676889061",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/images/00001.jpg?library_id=library&1794676889059",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/images/00006.jpg?library_id=library&1794676889063",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/images/00002.jpg?library_id=library&1794676889069",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/images/00004.jpg?library_id=library&1794676889067",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/titlepage.html?library_id=library&1794676889070",
+      "mime": "text/html"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/styles.css?library_id=library&1794676889065",
+      "mime": "text/css"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/index.html?library_id=library&1794676889072",
+      "mime": "text/html"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/book-file/1/MOBI/554415/17946936260/images/00005.jpg?library_id=library&1794676889074",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "nav",
+      "url": "about:srcdoc"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "blob:null/95170598-3b0a-425b-8c20-5954422adc57",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/zen/fonts/inter/Inter-Medium.ttf",
+      "mime": "font/ttf"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.png",
+      "mime": "image/png"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.svg",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "navigated_to": "http://192.168.88.89:8090/#book_id=1&fmt=MOBI&library_id=library&mode=read_book",
+  "screenshot": "artifacts/screenshots/50-scanner-reader-open.png"
+}

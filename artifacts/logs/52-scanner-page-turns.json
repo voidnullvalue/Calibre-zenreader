@@ -1,0 +1,30 @@
+{
+  "start_url": "http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book",
+  "before": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}",
+  "before_shot": "artifacts/screenshots/52-scanner-page1.png",
+  "turns": [
+    {
+      "turn": 1,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 1% Loading next section from A scanner darkly, please wait\u2026\",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 2,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 1% Loading next section from A scanner darkly, please wait\u2026\",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 3,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/2[filepos181]/4/136/2/1:6)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 4,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/4[filepos2307]/2/2@49.87:99.36)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 2% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 5,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/6[filepos2459]/24/1:300)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 3% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    }
+  ],
+  "after_shot": "artifacts/screenshots/53-scanner-pages-advanced.png",
+  "back": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/4[filepos2307]/2/2@49.87:99.36)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"chromeText\":\" 2% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}",
+  "back_shot": "artifacts/screenshots/54-scanner-page-back.png"
+}

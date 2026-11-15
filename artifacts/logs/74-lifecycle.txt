@@ -1,0 +1,25 @@
+=== lifecycle run 2026-11-14T13:10:20-06:00 ===
+=== lifecycle run 2026-11-14T13:05:45-06:00 ===
+--- state before HOME ---
+  ResumedActivity: ActivityRecord{76b98ec u0 io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity t2089}
+--- HOME ---
+  ResumedActivity: ActivityRecord{76b98ec u0 io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity t2089}
+    Local Activity b6411a2 State:
+      mResumed=false mStopped=true mFinished=false
+      FragmentManager misc state:
+        mCurState=3 mStateSaved=true mDestroyed=false
+      state: UNKNOWN
+--- relaunch (no extra: restores last page) ---
+Starting: Intent { cmp=io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+      mResumed=false mStopped=true mFinished=false
+--- screen off/on ---
+      mResumed=false mStopped=true mFinished=false
+11-14 13:10:18.070   637   889 I ActivityManager: START u0 {flg=0x10000000 cmp=io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity} from uid 2000
+--- final CDP state after HOME + screen off/on ---
+target: http://192.168.88.89:8090/#book_id=1&fmt=MOBI&library_id=library&mode=read_book | A scanner darkly
+parent: {"url":".../#book_id=1...","title":"A scanner darkly","ready":"complete","text":"5%"}
+content iframe: {"textLen":480953,"scrollX":7800,"scrollW":74360}
+--- keyguard state ---
+    mStatusBar=Window{cdd41c0 u0 StatusBar} isStatusBarKeyguard=true
+    mTopIsFullscreen=false mKeyguardOccluded=false

@@ -1,0 +1,564 @@
+--------- beginning of main
+I/app_process(26498): The ClassLoaderContext is a special shared library.
+I/Input   (26498): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=82948681, downTime=82948681, deviceId=-1, source=0x101 }
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/Input   (26498): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=82948681, downTime=82948681, deviceId=-1, source=0x101 }
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+W/HomeEventHandler(  637): Could not get metadata for foreground app
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+--------- beginning of system
+I/ActivityManager(  637): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.amazon.firelauncher/.Launcher (has extras)} from uid 1000
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:1
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+I/PackageRecency(  637): Queuing notification(s) to package for ActivityInfo{8885f13 com.amazon.firelauncher.Launcher}
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+W/AudioALSAHardware(  382): setParameters(), still have param.size() = 1, remain param = "continuous_audio_mode=0"
+I/hash_map_utils(  408): key: 'continuous_audio_mode' value: '0'
+W/AmazonProfileService(  637): Active profile for the package xxx not present for customer Id xxx
+W/AmazonProfileService(  637): Active profile for the programId PCA_FIRE_TABLET not present for customerId xxx
+I/F_C.Launcher( 2054): Received intent:android.intent.action.MAIN
+I/F_C.Launcher( 2054): onStart
+I/F_C.PrefetchTrigger( 2054): Launcher start, cancel any pending job and reschedule if needed with at least 30000 ms delay
+I/F_C.DeferredReferenceEx( 2054): Running task immediately (task=onForegroundedTask)
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+W/F_C.DaliForYouFragment( 2054): Fragment for target FOR_YOU_DALI is not instance of ImageMemoryManagedRecyclerViewHost. Returning null.
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/chatty  ( 2054): uid=10093(com.amazon.firelauncher) identical 38 lines
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/F_C.VisibleRecyclerView( 2054): getLastVisiblePosition, lastNonFixedViewPosition: 40, correctedAdapterIndex: 40, indexOffset: 0
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/chatty  ( 2054): uid=10093(com.amazon.firelauncher) identical 38 lines
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/F_C.VisibleRecyclerView( 2054): getLastVisiblePosition, lastNonFixedViewPosition: 40, correctedAdapterIndex: 40, indexOffset: 0
+I/F_C.Launcher( 2054): onResume
+I/F_C.PageExitMetric( 2054): Launcher foreground detected -- updating cachedCurrentPage
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_539923 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_539923 for weblab T1, base class: BufferedWeblabController
+I/F_C.AdsRefreshManager( 2054): Refreshing, placement: [], target: DELIVERIES, event: PAGE_FOREGROUNDED/DELIVERIES
+I/F_C.CardProducer( 2054): Handling event REFRESH_TARGET
+I/F_C.BaseSearchWidgetCon( 2054): setActiveSpec(), currentPage: 1
+I/F_C.BaseSearchWidgetCon( 2054): Valid spec
+I/F_C.BaseSearchWidgetCon( 2054): Calling onResume()
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: true
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.CardProducer( 2054): Evaluating for consumer registration inconsistencies
+I/F_C.DefaultAdmClient( 2054): Evaluating for adm registration inconsistencies
+I/com.amazon.firelauncher/ClientSideAmazonPlatformDependencyImpl( 2054): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.Launcher( 2054): Up Next/New Items has been enabled at App settings? - true
+I/F_C.DefaultNetworkState( 2054): Re-evaluate in onResume
+I/F_C.DefaultNetworkState( 2054): lastly notified connection state is true, skip notification
+I/F_C.AppsGrid( 2054): Notification Badge setting is enabled, but notification access permission is not granted. Not showing notification badges
+I/F_C.DefaultAdmClient( 2054): Starting adm deregistration
+I/ADM     ( 2054): Retrieving the registration id.
+I/ADMRegistrationProvider( 2747): [ADMRegistrationProvider]No cached result: Registration not found
+I/F_C.DefaultAdmClient( 2054): Already unregistered with adm
+I/com.amazon.firelauncher/ClientSideAmazonPlatformDependencyImpl( 2054): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.CloudCardProducerCl( 2054): Replacing cards for target DELIVERIES for eventId b96ddad8-924f-40a6-9137-dea06274ab8a with trigger null
+I/F_C.CloudCardProducerCl( 2054): Card consumer not registered, ignoring request
+W/F_C.AdsRefreshManager( 2054): Ads refresh fail with call result: REMOTELY_UNREGISTERED. Trigger event: PAGE_FOREGROUNDED/DELIVERIES. DataSource: DELIVERIES
+I/F_C.Launcher( 2054): onWindowFocusChanged: true
+I/F_C.Launcher( 2054): Try to start tutorial
+I/F_C.Launcher( 2054): isActivityStarted: true, isWindowFocused: true, isDeviceAlexaStateInitialized: true
+I/F_C.LauncherTutorialCon( 2054): startTutorial
+I/F_C.LauncherTutorialCon( 2054): No tutorial needs to be resumed
+I/F_C.LauncherTutorialCon( 2054): Account not registered, not showing tutorials
+I/F_C.EditModeEducationCo( 2054): Not showing Edit mode education to unregistered device
+I/thermal_src(  469): recvmsg_expect 4, but get 5 
+E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+I/thermal_src(  469): recvmsg_expect 2, but get 4 
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:0
+I/ActivityManager(  637): Displayed com.amazon.firelauncher/.Launcher: +85ms
+I/LaunchTimeProcessor(  637): warm_app_warm_transition_launch_time of com.amazon.firelauncher is 112ms with activity = com.amazon.firelauncher/.Launcher, app_version = 92058110, prev_activity = io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/LaunchTimeProcessor(  637): warm_activity_launch_time of com.amazon.firelauncher is 77ms with activity = com.amazon.firelauncher/.Launcher, app_version = 92058110, prev_activity = io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/ActivityManager(  637): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT] flg=0x10000000 cmp=com.android.launcher3/com.android.quickstep.RecentsActivity} from uid 10135
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:1
+I/F_C.Launcher( 2054): onPause
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: false
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.PageExitMetric( 2054): Launcher background detected -- reporting page exit metric for current page
+I/PackageRecency(  637): Queuing notification(s) to package for ActivityInfo{db4261a com.android.quickstep.RecentsActivity}
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+W/AudioALSAHardware(  382): setParameters(), still have param.size() = 1, remain param = "continuous_audio_mode=0"
+I/hash_map_utils(  408): key: 'continuous_audio_mode' value: '0'
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+I/ToolTipController( 2005): Tool tip already shown. No-op.
+W/AmazonProfileService(  637): Active profile for the package xxx not present for customer Id xxx
+W/AmazonProfileService(  637): Active profile for the programId PCA_FIRE_TABLET not present for customerId xxx
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+W/HomeEventHandler(  637): Could not get metadata for foreground app
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+I/F_C.Launcher( 2054): onWindowFocusChanged: false
+I/F_C.Launcher( 2054): Try to start tutorial
+I/F_C.Launcher( 2054): isActivityStarted: true, isWindowFocused: false, isDeviceAlexaStateInitialized: true
+I/ActivityManager(  637): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.amazon.firelauncher/.Launcher (has extras)} from uid 1000
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:1
+I/F_C.Launcher( 2054): onStop
+I/F_C.PrefetchTrigger( 2054): Launcher stop, cancel any pending job and reschedule if needed with at least 30000 ms delay
+W/F_C.EditModeController( 2054): AppsGrid not in EditMode, exit not applicable.
+I/F_C.DeferredReferenceEx( 2054): Running task immediately (task=onBackgroundedTask)
+I/F_C.BaseTutorialControl( 2054): pauseTutorial - isActive: false
+I/F_C.BaseTutorialControl( 2054): pauseTutorial - isActive: false
+W/InputDispatcher(  637): Excessive delay in interceptKeyBeforeDispatching; took 52 ms
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/OpenGLRenderer(  637): Initialized EGL, version 1.4
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/PackageRecency(  637): Queuing notification(s) to package for ActivityInfo{1d87b2 com.amazon.firelauncher.Launcher}
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+I/F_C.Launcher( 2054): Received intent:android.intent.action.MAIN
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+W/AudioALSAHardware(  382): setParameters(), still have param.size() = 1, remain param = "continuous_audio_mode=0"
+W/AmazonProfileService(  637): Active profile for the package xxx not present for customer Id xxx
+W/AmazonProfileService(  637): Active profile for the programId PCA_FIRE_TABLET not present for customerId xxx
+I/hash_map_utils(  408): key: 'continuous_audio_mode' value: '0'
+I/F_C.Launcher( 2054): onStart
+I/F_C.PrefetchTrigger( 2054): Launcher start, cancel any pending job and reschedule if needed with at least 30000 ms delay
+I/F_C.DeferredReferenceEx( 2054): Running task immediately (task=onForegroundedTask)
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+W/F_C.DaliForYouFragment( 2054): Fragment for target FOR_YOU_DALI is not instance of ImageMemoryManagedRecyclerViewHost. Returning null.
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/chatty  ( 2054): uid=10093(com.amazon.firelauncher) identical 38 lines
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/F_C.VisibleRecyclerView( 2054): getLastVisiblePosition, lastNonFixedViewPosition: 40, correctedAdapterIndex: 40, indexOffset: 0
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/chatty  ( 2054): uid=10093(com.amazon.firelauncher) identical 38 lines
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/F_C.VisibleRecyclerView( 2054): getLastVisiblePosition, lastNonFixedViewPosition: 40, correctedAdapterIndex: 40, indexOffset: 0
+I/F_C.Launcher( 2054): onResume
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/F_C.PageExitMetric( 2054): Launcher foreground detected -- updating cachedCurrentPage
+I/F_C.BaseSearchWidgetCon( 2054): setActiveSpec(), currentPage: 1
+I/F_C.BaseSearchWidgetCon( 2054): Valid spec
+I/F_C.BaseSearchWidgetCon( 2054): Calling onResume()
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: true
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.Launcher( 2054): Up Next/New Items has been enabled at App settings? - true
+I/F_C.DefaultNetworkState( 2054): Re-evaluate in onResume
+I/F_C.DefaultNetworkState( 2054): lastly notified connection state is true, skip notification
+I/F_C.AppsGrid( 2054): Notification Badge setting is enabled, but notification access permission is not granted. Not showing notification badges
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_539923 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_539923 for weblab T1, base class: BufferedWeblabController
+I/F_C.AdsRefreshManager( 2054): Refreshing, placement: [], target: DELIVERIES, event: PAGE_FOREGROUNDED/DELIVERIES
+I/F_C.CardProducer( 2054): Handling event REFRESH_TARGET
+I/F_C.CardProducer( 2054): Evaluating for consumer registration inconsistencies
+I/F_C.DefaultAdmClient( 2054): Evaluating for adm registration inconsistencies
+I/com.amazon.firelauncher/ClientSideAmazonPlatformDependencyImpl( 2054): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.DefaultAdmClient( 2054): Starting adm deregistration
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/ADM     ( 2054): Retrieving the registration id.
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/ADMRegistrationProvider( 2747): [ADMRegistrationProvider]No cached result: Registration not found
+I/F_C.DefaultAdmClient( 2054): Already unregistered with adm
+I/com.amazon.firelauncher/ClientSideAmazonPlatformDependencyImpl( 2054): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.CloudCardProducerCl( 2054): Replacing cards for target DELIVERIES for eventId f3a26853-0ade-4319-a17c-3a88c3a7e8b6 with trigger null
+I/F_C.CloudCardProducerCl( 2054): Card consumer not registered, ignoring request
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+W/F_C.AdsRefreshManager( 2054): Ads refresh fail with call result: REMOTELY_UNREGISTERED. Trigger event: PAGE_FOREGROUNDED/DELIVERIES. DataSource: DELIVERIES
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/F_C.Launcher( 2054): onWindowFocusChanged: true
+I/F_C.Launcher( 2054): Try to start tutorial
+I/F_C.Launcher( 2054): isActivityStarted: true, isWindowFocused: true, isDeviceAlexaStateInitialized: true
+I/F_C.LauncherTutorialCon( 2054): startTutorial
+I/F_C.LauncherTutorialCon( 2054): No tutorial needs to be resumed
+I/F_C.LauncherTutorialCon( 2054): Account not registered, not showing tutorials
+I/F_C.EditModeEducationCo( 2054): Not showing Edit mode education to unregistered device
+I/ActivityManager(  637): Displayed com.amazon.firelauncher/.Launcher: +80ms
+I/LaunchTimeProcessor(  637): warm_app_warm_transition_launch_time of com.amazon.firelauncher is 116ms with activity = com.amazon.firelauncher/.Launcher, app_version = 92058110, prev_activity = com.android.launcher3/com.android.quickstep.RecentsActivity, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/LaunchTimeProcessor(  637): warm_activity_launch_time of com.amazon.firelauncher is 78ms with activity = com.amazon.firelauncher/.Launcher, app_version = 92058110, prev_activity = com.android.launcher3/com.android.quickstep.RecentsActivity, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:0
+I/libPowerHal(  406): 8: legacy set freq: -1 -1 -1 -1
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/RecentsActivity( 2005): Received onTrimMemory level: 20
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/WifiService(  637): getCurrentNetwork uid=10056
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/system_server(  637): NativeAlloc concurrent copying GC freed 105878(3MB) AllocSpace objects, 4(80KB) LOS objects, 25% free, 17MB/23MB, paused 332us total 119.018ms
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+I/ActivityManager(  637): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT] flg=0x10000000 cmp=com.android.launcher3/com.android.quickstep.RecentsActivity} from uid 10135
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:1
+I/F_C.Launcher( 2054): onPause
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: false
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.PageExitMetric( 2054): Launcher background detected -- reporting page exit metric for current page
+I/PackageRecency(  637): Queuing notification(s) to package for ActivityInfo{db4261a com.android.quickstep.RecentsActivity}
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+W/AudioALSAHardware(  382): setParameters(), still have param.size() = 1, remain param = "continuous_audio_mode=0"
+I/hash_map_utils(  408): key: 'continuous_audio_mode' value: '0'
+W/AmazonProfileService(  637): Active profile for the package xxx not present for customer Id xxx
+W/AmazonProfileService(  637): Active profile for the programId PCA_FIRE_TABLET not present for customerId xxx
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+W/HomeEventHandler(  637): Could not get metadata for foreground app
+I/ToolTipController( 2005): Tool tip already shown. No-op.
+I/F_C.Launcher( 2054): onWindowFocusChanged: false
+I/F_C.Launcher( 2054): Try to start tutorial
+I/F_C.Launcher( 2054): isActivityStarted: true, isWindowFocused: false, isDeviceAlexaStateInitialized: true
+I/F_C.Launcher( 2054): onStop
+I/F_C.PrefetchTrigger( 2054): Launcher stop, cancel any pending job and reschedule if needed with at least 30000 ms delay
+W/F_C.EditModeController( 2054): AppsGrid not in EditMode, exit not applicable.
+I/F_C.DeferredReferenceEx( 2054): Running task immediately (task=onBackgroundedTask)
+I/F_C.BaseTutorialControl( 2054): pauseTutorial - isActive: false
+I/F_C.BaseTutorialControl( 2054): pauseTutorial - isActive: false
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+I/ActivityManager(  637): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.amazon.firelauncher/.Launcher (has extras)} from uid 1000
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:1
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/PackageRecency(  637): Queuing notification(s) to package for ActivityInfo{8d86cfe com.amazon.firelauncher.Launcher}
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+I/F_C.Launcher( 2054): Received intent:android.intent.action.MAIN
+W/AudioALSAHardware(  382): setParameters(), still have param.size() = 1, remain param = "continuous_audio_mode=0"
+I/hash_map_utils(  408): key: 'continuous_audio_mode' value: '0'
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.Launcher( 2054): onStart
+I/F_C.PrefetchTrigger( 2054): Launcher start, cancel any pending job and reschedule if needed with at least 30000 ms delay
+I/F_C.DeferredReferenceEx( 2054): Running task immediately (task=onForegroundedTask)
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+W/F_C.DaliForYouFragment( 2054): Fragment for target FOR_YOU_DALI is not instance of ImageMemoryManagedRecyclerViewHost. Returning null.
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/chatty  ( 2054): uid=10093(com.amazon.firelauncher) identical 38 lines
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/F_C.VisibleRecyclerView( 2054): getLastVisiblePosition, lastNonFixedViewPosition: 40, correctedAdapterIndex: 40, indexOffset: 0
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+I/F_C.VisibleRecyclerView( 2054): getFirstVisiblePosition, firstVisibleAdapterPosition: 0, correctedAdapterIndex: 0, indexOffset: 0
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/chatty  ( 2054): uid=10093(com.amazon.firelauncher) identical 38 lines
+I/F_C.SectionExpandStates( 2054): bind() - dataSource not yet registered
+I/F_C.VisibleRecyclerView( 2054): getLastVisiblePosition, lastNonFixedViewPosition: 40, correctedAdapterIndex: 40, indexOffset: 0
+I/F_C.Launcher( 2054): onResume
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.PageExitMetric( 2054): Launcher foreground detected -- updating cachedCurrentPage
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_539923 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_539923 for weblab T1, base class: BufferedWeblabController
+I/F_C.BaseSearchWidgetCon( 2054): setActiveSpec(), currentPage: 1
+I/F_C.BaseSearchWidgetCon( 2054): Valid spec
+I/F_C.BaseSearchWidgetCon( 2054): Calling onResume()
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: true
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.AdsRefreshManager( 2054): Refreshing, placement: [], target: DELIVERIES, event: PAGE_FOREGROUNDED/DELIVERIES
+I/F_C.CardProducer( 2054): Handling event REFRESH_TARGET
+I/F_C.Launcher( 2054): Up Next/New Items has been enabled at App settings? - true
+I/F_C.DefaultNetworkState( 2054): Re-evaluate in onResume
+I/F_C.DefaultNetworkState( 2054): lastly notified connection state is true, skip notification
+I/F_C.AppsGrid( 2054): Notification Badge setting is enabled, but notification access permission is not granted. Not showing notification badges
+I/F_C.CardProducer( 2054): Evaluating for consumer registration inconsistencies
+I/F_C.DefaultAdmClient( 2054): Evaluating for adm registration inconsistencies
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+W/AmazonProfileService(  637): Active profile for the package xxx not present for customer Id xxx
+W/AmazonProfileService(  637): Active profile for the programId PCA_FIRE_TABLET not present for customerId xxx
+I/com.amazon.firelauncher/ClientSideAmazonPlatformDependencyImpl( 2054): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.DefaultAdmClient( 2054): Starting adm deregistration
+I/ADM     ( 2054): Retrieving the registration id.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/ADMRegistrationProvider( 2747): [ADMRegistrationProvider]No cached result: Registration not found
+I/F_C.DefaultAdmClient( 2054): Already unregistered with adm
+I/com.amazon.firelauncher/ClientSideAmazonPlatformDependencyImpl( 2054): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.CloudCardProducerCl( 2054): Replacing cards for target DELIVERIES for eventId 7928b7f7-9b25-4b95-b583-b3f5bc32818d with trigger null
+I/F_C.CloudCardProducerCl( 2054): Card consumer not registered, ignoring request
+W/F_C.AdsRefreshManager( 2054): Ads refresh fail with call result: REMOTELY_UNREGISTERED. Trigger event: PAGE_FOREGROUNDED/DELIVERIES. DataSource: DELIVERIES
+I/F_C.Launcher( 2054): onWindowFocusChanged: true
+I/F_C.Launcher( 2054): Try to start tutorial
+I/F_C.Launcher( 2054): isActivityStarted: true, isWindowFocused: true, isDeviceAlexaStateInitialized: true
+I/F_C.LauncherTutorialCon( 2054): startTutorial
+I/F_C.LauncherTutorialCon( 2054): No tutorial needs to be resumed
+I/F_C.LauncherTutorialCon( 2054): Account not registered, not showing tutorials
+I/F_C.EditModeEducationCo( 2054): Not showing Edit mode education to unregistered device
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/ActivityManager(  637): Displayed com.amazon.firelauncher/.Launcher: +73ms
+I/LaunchTimeProcessor(  637): warm_app_warm_transition_launch_time of com.amazon.firelauncher is 108ms with activity = com.amazon.firelauncher/.Launcher, app_version = 92058110, prev_activity = com.android.launcher3/com.android.quickstep.RecentsActivity, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:0
+I/libPowerHal(  406): 8: legacy set freq: -1 -1 -1 -1
+I/LaunchTimeProcessor(  637): warm_activity_launch_time of com.amazon.firelauncher is 74ms with activity = com.amazon.firelauncher/.Launcher, app_version = 92058110, prev_activity = com.android.launcher3/com.android.quickstep.RecentsActivity, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/RecentsActivity( 2005): Received onTrimMemory level: 20
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/system_server(  637): NativeAlloc concurrent copying GC freed 6635(576KB) AllocSpace objects, 2(40KB) LOS objects, 25% free, 17MB/23MB, paused 302us total 106.488ms
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+E/SELinux (  637): avc:  denied  { see_home_task } for  scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:system_server:s0 tclass=amazon_policies permissive=0
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+I/vol.Events(  915): writeEvent dismiss_dialog volume_controller
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+I/ActivityManager(  637): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.amazon.firelauncher/.Launcher (has extras)} from uid 1000
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/F_C.Launcher( 2054): onPause
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: false
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.PageExitMetric( 2054): Launcher background detected -- reporting page exit metric for current page
+I/F_C.Launcher( 2054): Received intent:android.intent.action.MAIN
+W/F_C.EditModeController( 2054): AppsGrid not in EditMode, exit not applicable.
+I/F_C.Launcher( 2054): onResume
+I/F_C.BaseSearchWidgetCon( 2054): setActiveSpec(), currentPage: 1
+I/F_C.BaseSearchWidgetCon( 2054): Valid spec
+I/F_C.BaseSearchWidgetCon( 2054): Calling onResume()
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: true
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.Launcher( 2054): Up Next/New Items has been enabled at App settings? - true
+I/F_C.DefaultNetworkState( 2054): Re-evaluate in onResume
+I/F_C.DefaultNetworkState( 2054): lastly notified connection state is true, skip notification
+I/F_C.AppsGrid( 2054): Notification Badge setting is enabled, but notification access permission is not granted. Not showing notification badges
+I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/thermal_src(  469): recvmsg_expect 4, but get 5 
+E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+I/thermal_src(  469): recvmsg_expect 2, but get 4 
+I/thermal_repeater(  465): socket -1
+W/SimProxyManager( 1360): getSimProxyService:failedToObtainBinderForSimProxyAccessorSystemService
+I/ActivityManager(  637): START u0 {flg=0x10000000 cmp=io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity} from uid 2000
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:1
+I/F_C.Launcher( 2054): onPause
+I/F_C.MagazineController( 2054): Notifying F_C.PageAdapter:DELIVERIES on on visibility change: false
+I/F_C.BufferedWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1
+I/F_C.OverrideWeblabContr( 2054): Returning FIRELAUNCHER_PODIUM_911263 for weblab T1, base class: BufferedWeblabController
+I/F_C.WeblabCardFiltering( 2054): No filters found for treatment T1
+I/F_C.PageExitMetric( 2054): Launcher background detected -- reporting page exit metric for current page
+I/PackageRecency(  637): Queuing notification(s) to package for ActivityInfo{9fcc89c io.voidlab.calibreader.MainActivity}
+I/AlexaModeSwitchManagerImpl(  637): Inside getMode
+W/AmazonProfileService(  637): Active profile for the package xxx not present for customer Id xxx
+W/AmazonProfileService(  637): Active profile for the programId PCA_FIRE_TABLET not present for customerId xxx
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+W/AudioALSAHardware(  382): setParameters(), still have param.size() = 1, remain param = "continuous_audio_mode=0"
+I/hash_map_utils(  408): key: 'continuous_audio_mode' value: '0'
+E/AmazonProfileService(  637): Active profile has not been set
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/F_C.Launcher( 2054): onWindowFocusChanged: false
+I/F_C.Launcher( 2054): Try to start tutorial
+I/F_C.Launcher( 2054): isActivityStarted: true, isWindowFocused: false, isDeviceAlexaStateInitialized: true
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:8, data:0
+I/ActivityManager(  637): Displayed io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity: +83ms
+I/LaunchTimeProcessor(  637): warm_app_warm_transition_launch_time of io.voidlab.calibreader.debug is 115ms with activity = io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity, app_version = 1, prev_activity = com.amazon.firelauncher/.Launcher, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/LaunchTimeProcessor(  637): warm_activity_launch_time of io.voidlab.calibreader.debug is 80ms with activity = io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity, app_version = 1, prev_activity = com.amazon.firelauncher/.Launcher, isChild = false, context = S1T0A1D0I0L1E0M9999R0
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+W/SurfaceFlinger(  411): Attempting to set client state on removed layer: SnapshotStartingWindow for taskId=2086#0
+W/SurfaceFlinger(  411): Attempting to destroy on removed layer: SnapshotStartingWindow for taskId=2086#0
+I/F_C.Launcher( 2054): onStop
+I/F_C.PrefetchTrigger( 2054): Launcher stop, cancel any pending job and reschedule if needed with at least 30000 ms delay
+W/F_C.EditModeController( 2054): AppsGrid not in EditMode, exit not applicable.
+I/F_C.DeferredReferenceEx( 2054): Running task immediately (task=onBackgroundedTask)
+I/F_C.BaseTutorialControl( 2054): pauseTutorial - isActive: false
+I/F_C.BaseTutorialControl( 2054): pauseTutorial - isActive: false
+E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+I/WifiService(  637): getCurrentNetwork uid=10056
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/com.amazon.client.metrics/ClientSideAmazonPlatformDependencyImpl( 1372): isAmazonDevice() in ClientSideAmazonPlatformDependencyImpl is called
+E/PredefinedKeyUtil( 1372): Primary account or CustomerAttributeStore is null.
+I/PackageRecency(  637): Matched blackListPattern for [com.amazon.firelauncher/com.amazon.fireappscardproducer.service.SystemNotificationProducerService$PackageRecencyReceiver] on com.amazon.smartgenie/.*|com.amazon.venezia/.*|com.amazon.ags.app/.*|com.amazon.kindle.otter.settings/.*|com.amazon.webapp/.*|com.amazon.firelauncher/.*|com.android.settings/.*|com.amazon.kindle.personal_music/.*|com.amazon.kindle.personal_video/.*|com.amazon.kindle.otter.oobe/.*|com.amazon.cardinal/.*|com.android.systemui/.*|com.amazon.kindle.unifiedSearch/.*|com.android.launcher3/.*|com.amazon.storagemanager/.*|amazon.speech.sim/.*|com.android.packageinstaller/.*|com.amazon.parentalcontrols/.*
+E/charge_logger(  482): --- charge_logger battery event ---
+E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+I/PackageRecency(  637): Matched blackListPattern for [com.amazon.firelauncher/com.amazon.fireappscardproducer.service.SystemNotificationProducerService$PackageRecencyReceiver] on com.amazon.smartgenie/.*|com.amazon.venezia/.*|com.amazon.ags.app/.*|com.amazon.kindle.otter.settings/.*|com.amazon.webapp/.*|com.amazon.firelauncher/.*|com.android.settings/.*|com.amazon.kindle.personal_music/.*|com.amazon.kindle.personal_video/.*|com.amazon.kindle.otter.oobe/.*|com.amazon.cardinal/.*|com.android.systemui/.*|com.amazon.kindle.unifiedSearch/.*|com.android.launcher3/.*|com.amazon.storagemanager/.*|amazon.speech.sim/.*|com.android.packageinstaller/.*|com.amazon.parentalcontrols/.*
+I/PackageRecency(  637): Matched blackListPattern for [com.amazon.firelauncher/com.amazon.fireappscardproducer.service.SystemNotificationProducerService$PackageRecencyReceiver] on com.amazon.smartgenie/.*|com.amazon.venezia/.*|com.amazon.ags.app/.*|com.amazon.kindle.otter.settings/.*|com.amazon.webapp/.*|com.amazon.firelauncher/.*|com.android.settings/.*|com.amazon.kindle.personal_music/.*|com.amazon.kindle.personal_video/.*|com.amazon.kindle.otter.oobe/.*|com.amazon.cardinal/.*|com.android.systemui/.*|com.amazon.kindle.unifiedSearch/.*|com.android.launcher3/.*|com.amazon.storagemanager/.*|amazon.speech.sim/.*|com.android.packageinstaller/.*|com.amazon.parentalcontrols/.*
+E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+I/WifiService(  637): getCurrentNetwork uid=10056
+I/thermal_src(  469): recvmsg_expect 4, but get 5 
+E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+I/thermal_src(  469): recvmsg_expect 2, but get 4 
+I/thermal_repeater(  465): socket -1
+W/SimProxyManager( 1360): getSimProxyService:failedToObtainBinderForSimProxyAccessorSystemService
+E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+I/WifiService(  637): getCurrentNetwork uid=10056
+E/ion     (26535): ioctl c0044901 failed with code -1: Invalid argument
+I/screencap(26535): type=1400 audit(0.0:597): avc: denied { search } for name="clients" dev="debugfs" ino=7148 scontext=u:r:shell:s0 tcontext=u:object_r:debugfs_ion:s0 tclass=dir permissive=1

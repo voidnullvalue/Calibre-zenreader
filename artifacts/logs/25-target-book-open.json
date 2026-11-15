@@ -1,0 +1,8 @@
+{
+  "url": "http://192.168.88.89:8090/app/?book=1298",
+  "title": "library \u00b7 Calibre Zen",
+  "description": "{\"attached\":true,\"empty\":false,\"height\":1758,\"never_attached\":false,\"screenX\":0,\"screenY\":99,\"visible\":true,\"width\":1200}",
+  "evaluated": "{\"title\":\"library \u00b7 Calibre Zen\",\"url\":\"http://192.168.88.89:8090/app/?book=1298\",\"ready\":\"complete\",\"nodes\":436,\"text\":\"Calibre Zen\\nBooks\\nAll books\\n1,298\\nSearch book text\\nFilters\\nSeries\\nAuthors\\nPublisher\\nTags\\nFormats\\nRating\\nPublished\\n\\nCalibre Zen 0.5.0 \u00b7 calibrezen.com\\n\\n1,298 books\\nBlood Test\\nJohnathan Kellerman\\nBloodsucking fiends: a love story\\nChristopher Moore\\nBlood Sunset\\nJarad Henry\\nBloodstone\\nBarbara Campbell\\nB\",\"nav\":[\"http://192.168.88.89:8090/app/\"]}",
+  "screenshot": "/tmp/bookpage.png",
+  "screenshot_bytes": 845777
+}

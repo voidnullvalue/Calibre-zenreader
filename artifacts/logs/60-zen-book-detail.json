@@ -1,0 +1,301 @@
+{
+  "url": "http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/4/2/4/2/184/1:53)&fmt=MOBI&library_id=library&mode=read_book",
+  "title": "Blood Test",
+  "events": [
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/?book=1",
+      "mime": "text/html"
+    },
+    {
+      "t": "nav",
+      "url": "http://192.168.88.89:8090/app/?book=1"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/AppLayout.tFkpuiaH.css",
+      "mime": "text/css"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/AppLayout.astro_astro_type_script_index_0_lang.DqGp3IJI.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/LibraryApp.CRcYW_Qq.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/client.KF1t-_eb.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/appearance.8QHr7T2p.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/react.yIOJJ3r4.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/AppProviders.CPT_i075.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/reader.Cq3DuZq9.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/textarea.B5xfedn-.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/react-dom.tjb2bX_M.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/toggle.liDTqysz.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/dropdown-menu.DIDOfzf8.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/progress.CSM07ojs.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/About.Q9Fer-J1.js",
+      "mime": "text/javascript"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/icon.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/favicon.ico",
+      "mime": "image/x-icon"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/interface-data/update",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/inter-latin-wght-normal.Dx4kXJAl.woff2",
+      "mime": "font/woff2"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/interface-data/books-init?library_id=library&num=0",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/icon.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/interface-data/more-books?library_id=library&num=100",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/zen/api/can-edit?library_id=library",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/interface-data/book-metadata/1?library_id=library",
+      "mime": "application/json"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1298/library?sz=96x144",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1/library?sz=96x144",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/cover/1/library?t=2026-11-14T16%3A00%3A26%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/app/_astro/literata-latin-wght-normal.DLxlUchJ.woff2",
+      "mime": "font/woff2"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1298/library?sz=288x432&t=2026-11-14T16%3A29%3A07%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1296/library?sz=288x432&t=2026-11-14T16%3A29%3A06%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1295/library?sz=288x432&t=2026-11-14T16%3A29%3A05%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1297/library?sz=288x432&t=2026-11-14T16%3A29%3A07%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1292/library?sz=288x432&t=2026-11-14T16%3A29%3A03%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1294/library?sz=288x432&t=2026-11-14T16%3A29%3A05%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1293/library?sz=288x432&t=2026-11-14T16%3A29%3A04%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1291/library?sz=288x432&t=2026-11-14T16%3A29%3A03%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1285/library?sz=288x432&t=2026-11-14T16%3A28%3A59%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1288/library?sz=288x432&t=2026-11-14T16%3A29%3A01%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1282/library?sz=288x432&t=2026-11-14T16%3A28%3A57%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1279/library?sz=288x432&t=2026-11-14T16%3A28%3A49%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1283/library?sz=288x432&t=2026-11-14T16%3A28%3A57%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1280/library?sz=288x432&t=2026-11-14T16%3A28%3A56%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1287/library?sz=288x432&t=2026-11-14T16%3A29%3A00%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1286/library?sz=288x432&t=2026-11-14T16%3A28%3A59%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1290/library?sz=288x432&t=2026-11-14T16%3A29%3A02%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1284/library?sz=288x432&t=2026-11-14T16%3A28%3A58%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1289/library?sz=288x432&t=2026-11-14T16%3A29%3A01%2B00%3A00",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/get/thumb/1281/library?sz=288x432&t=2026-11-14T16%3A28%3A56%2B00%3A00",
+      "mime": "image/jpeg"
+    }
+  ],
+  "navigated_to": "http://192.168.88.89:8090/app/?book=1",
+  "eval": "{\"url\":\"http://192.168.88.89:8090/app/?book=1\",\"title\":\"library \u00b7 Calibre Zen\",\"links\":[\"/#book_id=1298&fmt=MOBI&library_id=library&mode=read_book\",\"/#book_id=1&fmt=MOBI&library_id=library&mode=read_book\",\"/#book_id=1&fmt=MOBI&library_id=library&mode=read_book\"],\"buttons\":[\"All books\\n1,298\",\"Search book text\",\"Series\",\"Authors\",\"Publisher\",\"Tags\",\"Formats\",\"Rating\",\"Published\",\"Blood Test\\nJohnathan Kellerman\",\"Bloodsucking fiends: a love story\\nChristopher Moore\",\"Blood Sunset\\nJarad Henry\",\"Bloodstone\\nBarbara Campbell\",\"Bloodshot\\nCherie Priest\",\"Blood risk\\nDean Koontz\",\"Blood Rites\\nJim Butcher\",\"Blood on the Sand\\nPauline Rowson\",\"Blood Orchid\\nStuart Woods\",\"Blood on My Hands\\nTodd Strasser\",\"Blood of the Fold\\nTerry Goodkind\",\"Blood of the Mantis\\nAdrian Tchaikovsky\",\"Blood Of Angels\\nMichael Marshall\",\"Blood Music\\nGreg Bear\",\"Blood Noir\\nLaurell K. Hamilton\",\"Blood Meridian\\nCormac McCarthy\",\"Blood meridian, or, The evening redness in the West\\nCormac McCarthy\",\"Blood Memories\\nBarb Hendee\",\"Bloodline\\nF. Paul Wilson\",\"Bloodlands: Europe Between Hitler and Stalin\\nTimothy Synder\",\"Blood Harvest\\nS. J. Bolton\"],\"text\":\"Calibre Zen Continue reading Blood Test A scanner darkly On this device 2 Books All books 1,298 Search book text Filters Series Authors Publisher Tags Formats Rating Published Calibre Zen 0.5.0 \u00b7 calibrezen.com 1,298 books Blood Test Johnathan Kellerman Bloodsucking fiends: a love story Christopher Moore Blood Sunset Jarad Henry Bloodstone Barbara Campbell Bloodshot Cherie Priest Blood risk Dean Koontz Blood Rites Jim Butcher Blood on the Sand Pauline Rowson Blood Orchid Stuart Woods Blood on My\"}",
+  "screenshot": "artifacts/screenshots/60-zen-book-detail.png"
+}

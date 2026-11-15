@@ -1,0 +1,30 @@
+{
+  "start_url": "http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book",
+  "before": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 0% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}",
+  "before_shot": "artifacts/screenshots/56-bloodtest-page1.png",
+  "turns": [
+    {
+      "turn": 1,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 0% Loading next section from Blood Test, please wait\u2026\",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 2,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 3,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/4/2/4/2/82/1:17)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 4,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/4/2/4/2/184/1:53)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    },
+    {
+      "turn": 5,
+      "text": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/4/2/4/2/184/1:53)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}"
+    }
+  ],
+  "after_shot": "artifacts/screenshots/57-bloodtest-pages-advanced.png",
+  "back": "{\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/4/2/4/2/184/1:53)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"Blood Test\",\"chromeText\":\" 1% \",\"iframeTextLen\":0,\"iframeText\":\"\",\"iframeSrcPrefix\":\"\\n<!DOCTYPE html>\\n<html>\\n<head>\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, user-scalable=no\\\">\\n<m\",\"scroll\":null}",
+  "back_shot": "artifacts/screenshots/58-bloodtest-page-back.png"
+}

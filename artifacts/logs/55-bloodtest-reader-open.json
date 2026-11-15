@@ -1,0 +1,62 @@
+{
+  "url": "http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/4[filepos2307]/2/2@49.87:99.36)&fmt=MOBI&library_id=library&mode=read_book",
+  "title": "A scanner darkly",
+  "events": [
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.png",
+      "mime": "image/png"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.png",
+      "mime": "image/png"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "t": "netfail",
+      "id": "18581619473F9807F176F98AF77E8B42",
+      "error": "net::ERR_ABORTED",
+      "blocked": null,
+      "type": "Document",
+      "canceled": true
+    },
+    {
+      "t": "nav",
+      "url": "about:srcdoc"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "blob:null/58dfa8d3-7ba5-4eea-9884-d5dad3525883",
+      "mime": "image/jpeg"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.png",
+      "mime": "image/png"
+    },
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/favicon.svg",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "navigated_to": "http://192.168.88.89:8090/#book_id=1298&fmt=MOBI&library_id=library&mode=read_book",
+  "screenshot": "artifacts/screenshots/55-bloodtest-reader-open.png"
+}

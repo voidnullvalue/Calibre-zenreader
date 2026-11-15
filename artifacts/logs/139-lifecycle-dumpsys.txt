@@ -1,0 +1,4 @@
+      mResumed=false mStopped=true mFinished=false
+        mCurState=3 mStateSaved=true mDestroyed=false
+    mStatusBar=Window{cdd41c0 u0 StatusBar} isStatusBarKeyguard=true
+      showing=true

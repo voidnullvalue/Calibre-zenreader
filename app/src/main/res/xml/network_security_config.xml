@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The wrapper talks to a user-supplied Calibre server, which in practice is a
+  LAN host serving plain HTTP (calibre-server has no built-in TLS). Android's
+  network security config cannot name an arbitrary user host at build time, so
+  cleartext has to stay enabled here.
+
+  Cleartext is therefore constrained at the application layer instead:
+    * top-level navigation is only allowed to the configured host and port,
+    * every out-of-scope subresource request is cancelled,
+    * TLS errors are always fatal (no self-signed bypass).
+  See MainActivity#isInScope and README "Security model".
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

@@ -1,0 +1,10 @@
+logcat window: 11-14 13:56:17.859 .. 11-14 14:08:34.382
+lines: 3002
+FATAL EXCEPTION: 0
+ANR in io.voidlab.calibreader: 0
+out-of-scope: 0
+blocked navigation: 0
+app 403 responses: 0
+CalibReader lines:
+11-14 13:56:18.352 32432 32432 I CalibReader: using built-in default server: http://192.168.88.89:8090/app/
+11-14 13:56:18.352 32432 32432 I CalibReader: loading http://192.168.88.89:8090/app/

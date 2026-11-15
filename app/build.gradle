@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'io.voidlab.calibreader'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "io.voidlab.calibreader"
+        minSdk 21
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+        // Build-time default server. The path is preserved, so the exact
+        // calibre-zen entry point /app/ is loaded instead of the server root.
+        // Override for another server with:
+        //   ./gradlew assembleDebug -PcalibreaderServer=http://192.168.1.10:8080
+        // The value is only a first-run default; it is validated and never
+        // trusted blindly.
+        buildConfigField "String", "BUILT_IN_SERVER", "\"${project.findProperty('calibreaderServer') ?: 'http://192.168.88.89:8090/app/'}\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    buildTypes {
+        debug {
+            // WebView remote debugging is enabled in debug builds only.
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+    // Intentionally no third-party or AndroidX runtime dependencies: the app is a
+    // thin, auditable WebView shell built only on the Android framework. JUnit is
+    // test-only and never shipped in the APK.
+    testImplementation 'junit:junit:4.13.2'
+}

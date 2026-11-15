@@ -1,0 +1,22 @@
+--------- beginning of main
+11-14 11:06:38.938 I/thermal_repeater(  465): socket -1
+--------- beginning of system
+11-14 11:06:38.983 I/ActivityManager(  637): START u0 {flg=0x10000000 cmp=io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity (has extras)} from uid 2000
+11-14 11:06:38.983 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+11-14 11:06:38.984 I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+11-14 11:06:38.990 I/CalibReader(24679): loading http://192.168.88.89:8090/app/
+11-14 11:06:39.066 I/chromium(24741): [INFO:viewport_data.cc(133)] E2E_Used ViewportFitCover
+11-14 11:06:39.185 I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+11-14 11:06:40.588 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:40.608 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:41.950 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:06:41.950 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:06:41.950 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:06:43.611 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:43.632 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:43.939 I/thermal_repeater(  465): socket -1
+11-14 11:06:46.634 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:46.651 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:46.958 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:06:46.959 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:06:46.959 I/thermal_src(  469): recvmsg_expect 2, but get 4 

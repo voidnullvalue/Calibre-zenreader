@@ -1,0 +1,124 @@
+{
+  "target": {
+    "url": "http://192.168.88.89:8090/app/",
+    "title": "library \u00b7 Calibre Zen"
+  },
+  "steps": [],
+  "library": {
+    "url": "http://192.168.88.89:8090/app/",
+    "title": "library \u00b7 Calibre Zen",
+    "ready": "complete",
+    "chrome": "Calibre Zen Continue reading A scanner darkly Blood Test On this device 2 Books All books 1,298 Search book text Filters Series Authors Publisher Tags Formats Rating Published Calibre Zen 0.5.0 \u00b7 cali",
+    "iframes": 0,
+    "viewport": [
+      1200,
+      1758
+    ]
+  },
+  "open": {
+    "seconds_to_text": 7.0,
+    "parent": {
+      "url": "http://192.168.88.89:8090/#book_id=1&fmt=MOBI&library_id=library&mode=read_book",
+      "title": "A scanner darkly",
+      "ready": "complete",
+      "chrome": "4%",
+      "iframes": 1,
+      "viewport": [
+        1200,
+        1758
+      ]
+    },
+    "content": {
+      "ready": "complete",
+      "textLen": 480953,
+      "text": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nCounter-Clock World\nThe Crack in Space\nDeus Irae (with Roger Zelazny)\nThe Divine Invasion\nDo Androids Dream of Electric Sheep?\nDr. Bloodmoney\nDr. Futurity\nEye in the Sky\nFlow My Tears, the Policeman Sa",
+      "scrollW": 65960,
+      "clientW": 1160,
+      "scrollH": 1718,
+      "clientH": 1718,
+      "scrollX": 2394.666748046875,
+      "scrollY": 0
+    }
+  },
+  "turn_controls": [],
+  "turns": [
+    {
+      "turn": 1,
+      "before_chars": 480953,
+      "after_chars": 480953,
+      "before_head": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nC",
+      "after_head": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nC",
+      "before_scroll": [
+        2394.666748046875,
+        0
+      ],
+      "after_scroll": [
+        3000,
+        0
+      ],
+      "parent": {
+        "url": "http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/6[filepos2459]/172/1:182)&fmt=MOBI&library_id=library&mode=read_book",
+        "title": "A scanner darkly",
+        "ready": "complete",
+        "chrome": "5%",
+        "iframes": 1,
+        "viewport": [
+          1200,
+          1758
+        ]
+      }
+    },
+    {
+      "turn": 2,
+      "before_chars": 480953,
+      "after_chars": 480953,
+      "before_head": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nC",
+      "after_head": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nC",
+      "before_scroll": [
+        3000,
+        0
+      ],
+      "after_scroll": [
+        3000,
+        0
+      ],
+      "parent": {
+        "url": "http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/6[filepos2459]/172/1:182)&fmt=MOBI&library_id=library&mode=read_book",
+        "title": "A scanner darkly",
+        "ready": "complete",
+        "chrome": "5%",
+        "iframes": 1,
+        "viewport": [
+          1200,
+          1758
+        ]
+      }
+    },
+    {
+      "turn": 3,
+      "before_chars": 480953,
+      "after_chars": 480953,
+      "before_head": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nC",
+      "after_head": "NOVELS BY PHILIP K. DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nC",
+      "before_scroll": [
+        3000,
+        0
+      ],
+      "after_scroll": [
+        3000,
+        0
+      ],
+      "parent": {
+        "url": "http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/6[filepos2459]/172/1:182)&fmt=MOBI&library_id=library&mode=read_book",
+        "title": "A scanner darkly",
+        "ready": "complete",
+        "chrome": "5%",
+        "iframes": 1,
+        "viewport": [
+          1200,
+          1758
+        ]
+      }
+    }
+  ]
+}

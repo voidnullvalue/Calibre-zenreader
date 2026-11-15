@@ -1,0 +1,18 @@
+{
+  "url": "http://192.168.88.89:8090/app/?book=1",
+  "title": "library \u00b7 Calibre Zen",
+  "events": [
+    {
+      "t": "resp",
+      "status": 200,
+      "url": "http://192.168.88.89:8090/",
+      "mime": "text/html"
+    },
+    {
+      "t": "nav",
+      "url": "http://192.168.88.89:8090/"
+    }
+  ],
+  "eval": "clicked: /#book_id=1&fmt=MOBI&library_id=library&mode=read_book",
+  "screenshot": "artifacts/screenshots/61-after-click-read.png"
+}

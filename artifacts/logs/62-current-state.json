@@ -1,0 +1,7 @@
+{
+  "url": "http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/4[filepos2307]/2/2@49.87:99.36)&fmt=MOBI&library_id=library&mode=read_book",
+  "title": "A scanner darkly",
+  "events": [],
+  "eval": "{\"url\":\"http://192.168.88.89:8090/#book_id=1&bookpos=epubcfi(/4/2/4/4[filepos2307]/2/2@49.87:99.36)&fmt=MOBI&library_id=library&mode=read_book\",\"title\":\"A scanner darkly\",\"ready\":\"complete\",\"bodyText\":\" 2% \",\"iframes\":1,\"hasZen\":true}",
+  "screenshot": "artifacts/screenshots/62-current-state.png"
+}

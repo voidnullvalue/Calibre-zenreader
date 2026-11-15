@@ -1,0 +1,186 @@
+--------- beginning of main
+11-14 11:06:38.938 I/thermal_repeater(  465): socket -1
+--------- beginning of system
+11-14 11:06:38.983 I/ActivityManager(  637): START u0 {flg=0x10000000 cmp=io.voidlab.calibreader.debug/io.voidlab.calibreader.MainActivity (has extras)} from uid 2000
+11-14 11:06:38.983 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:200
+11-14 11:06:38.984 I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+11-14 11:06:38.990 I/CalibReader(24679): loading http://192.168.88.89:8090/app/
+11-14 11:06:39.066 I/chromium(24741): [INFO:viewport_data.cc(133)] E2E_Used ViewportFitCover
+11-14 11:06:39.185 I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+11-14 11:06:40.588 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:40.608 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:41.950 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:06:41.950 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:06:41.950 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:06:43.611 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:43.632 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:43.939 I/thermal_repeater(  465): socket -1
+11-14 11:06:46.634 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:46.651 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:46.958 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:06:46.959 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:06:46.959 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:06:48.940 I/thermal_repeater(  465): socket -1
+11-14 11:06:49.652 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:49.665 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:51.966 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:06:51.966 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:06:51.966 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:06:52.669 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:52.690 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:53.528 I/DeviceStorageMonitor(  637): invalid dyno offload threshold; returning
+11-14 11:06:53.941 I/thermal_repeater(  465): socket -1
+11-14 11:06:54.833 I/app_process(24974): The ClassLoaderContext is a special shared library.
+11-14 11:06:54.898 I/Input   (24974): injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=414.0, y[0]=400.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=81791885, downTime=81791885, deviceId=2, source=0x1002 }
+11-14 11:06:54.899 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+11-14 11:06:54.900 I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+11-14 11:06:54.900 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+11-14 11:06:54.901 W/libreader.debu(24679): Accessing hidden method Landroid/view/MotionEvent;->getEventTimeNano()J (light greylist, reflection)
+11-14 11:06:54.906 I/Input   (24974): injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=414.0, y[0]=400.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=81791885, downTime=81791885, deviceId=2, source=0x1002 }
+11-14 11:06:55.050 I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+11-14 11:06:55.692 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:55.697 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:56.502 E/MTK_FG  (  415): Warning, cmd 7, intr 4096
+11-14 11:06:56.503 E/MTK_FG  (  415): Warning, recvmsg expect 12, but get 7 
+11-14 11:06:56.506 E/charge_logger(  482): --- charge_logger battery event ---
+11-14 11:06:56.510 E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+11-14 11:06:56.599 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+11-14 11:06:56.599 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+11-14 11:06:56.599 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+11-14 11:06:56.604 E/charge_logger(  482): --- charge_logger battery event ---
+11-14 11:06:56.606 E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+11-14 11:06:56.690 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+11-14 11:06:56.690 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+11-14 11:06:56.690 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+11-14 11:06:56.694 E/charge_logger(  482): --- charge_logger battery event ---
+11-14 11:06:56.696 E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+11-14 11:06:56.783 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+11-14 11:06:56.783 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+11-14 11:06:56.783 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+11-14 11:06:56.974 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:06:56.974 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:06:56.974 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:06:58.701 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:06:58.726 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:06:58.942 I/thermal_repeater(  465): socket -1
+11-14 11:07:01.143 E/ion     (24996): ioctl c0044901 failed with code -1: Invalid argument
+11-14 11:07:01.139 I/screencap(24996): type=1400 audit(0.0:585): avc: denied { search } for name="clients" dev="debugfs" ino=7148 scontext=u:r:shell:s0 tcontext=u:object_r:debugfs_ion:s0 tclass=dir permissive=1
+11-14 11:07:01.727 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:01.747 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:01.982 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:01.982 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:01.982 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:02.014 I/AmazonPowerManagerVendorCallback(  637): Wakelock acquired UID:1000 PID:637 Tag:WindowManager
+11-14 11:07:03.090 I/Choreographer(24679): Skipped 59 frames!  The application may be doing too much work on its main thread.
+11-14 11:07:03.416 I/AmazonPowerManagerVendorCallback(  637): Wakelock released UID:1000 PID:637 Tag:WindowManager
+11-14 11:07:03.416 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+11-14 11:07:03.418 I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+11-14 11:07:03.568 I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+11-14 11:07:03.943 I/thermal_repeater(  465): socket -1
+11-14 11:07:04.747 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:04.767 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:05.185 E/storaged(  451): getDiskStats failed with result NOT_SUPPORTED and size 0
+11-14 11:07:06.990 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:06.990 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:06.990 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:07.609 I/system_server(  637): Background concurrent copying GC freed 213554(6MB) AllocSpace objects, 2(40KB) LOS objects, 26% free, 16MB/22MB, paused 484us total 253.455ms
+11-14 11:07:07.771 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:07.783 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:08.305 I/main.wifi_log_levels(25006): wifi_log_levels:rssi=-54;noise=-95;channel=36;txframes=298834;txretries=33311;txper=Tx retry count = 33311;txnoack=0;txplr=Tx fail to Rcv ACK after retry = 0;rxframes=540632;rxcrc=2498175;rxper=Rx with CRC = 2498175;rxdrop=18;rxdup=0;falsecca=False CCA(total) =;onesecfalsecca=False CCA(one-second) =;phymode=802.11ac;phyrate=;lasttxrate=433000000;lastrxrate=6000000;abnormal_int=0;soft_int=0;tx_int=0;rxdata_int=0;rxevent_int=0;rxmgmt_int=0;rxother_int=0;
+11-14 11:07:08.325 I/main.wifi_log_levels(25007): wifi_log_levels:max_rssi=-47;min_rssi=-54;max_noise=-91;min_noise=-95;
+11-14 11:07:08.943 I/thermal_repeater(  465): socket -1
+11-14 11:07:10.784 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:10.811 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:11.998 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:11.998 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:11.998 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:13.814 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:13.835 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:13.944 I/thermal_repeater(  465): socket -1
+11-14 11:07:16.839 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:16.859 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:17.006 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:17.006 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:17.006 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:18.061 I/app_process(25011): The ClassLoaderContext is a special shared library.
+11-14 11:07:18.129 I/Input   (25011): injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=774.0, y[0]=550.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=81815116, downTime=81815116, deviceId=2, source=0x1002 }
+11-14 11:07:18.129 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+11-14 11:07:18.131 I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+11-14 11:07:18.131 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+11-14 11:07:18.132 I/Input   (25011): injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=774.0, y[0]=550.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=81815116, downTime=81815116, deviceId=2, source=0x1002 }
+11-14 11:07:18.264 W/BestClock(  637): java.time.DateTimeException: Missing NTP fix
+11-14 11:07:18.274 W/BestClock(  637): java.time.DateTimeException: Missing NTP fix
+11-14 11:07:18.277 W/BestClock(  637): java.time.DateTimeException: Missing NTP fix
+11-14 11:07:18.280 I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+11-14 11:07:18.924 I/chromium(24741): [INFO:document_style_environment_variables.cc(104)] E2E_Used SafeAreaInsetBottom
+11-14 11:07:18.945 I/thermal_repeater(  465): socket -1
+11-14 11:07:19.340 E/MTK_FG  (  415): Warning, cmd 7, intr 256
+11-14 11:07:19.340 E/MTK_FG  (  415): Warning, recvmsg expect 10, but get 7 
+11-14 11:07:19.344 E/charge_logger(  482): --- charge_logger battery event ---
+11-14 11:07:19.346 E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+11-14 11:07:19.430 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+11-14 11:07:19.430 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+11-14 11:07:19.430 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+11-14 11:07:19.435 E/charge_logger(  482): --- charge_logger battery event ---
+11-14 11:07:19.437 E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+11-14 11:07:19.523 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+11-14 11:07:19.523 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+11-14 11:07:19.523 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+11-14 11:07:19.526 E/charge_logger(  482): --- charge_logger battery event ---
+11-14 11:07:19.528 E/charge_logger(  482): Open path error: '/sys/class/power_supply/Wireless/online'
+11-14 11:07:19.614 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/vout_adc'
+11-14 11:07:19.615 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/iout_adc'
+11-14 11:07:19.615 E/charge_logger(  482): Open path error: '/sys/bus/i2c/devices/3-003b/over_reason'
+11-14 11:07:19.863 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:19.869 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:22.014 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:22.014 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:22.014 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:22.873 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:22.881 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:23.946 I/thermal_repeater(  465): socket -1
+11-14 11:07:25.883 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:25.889 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:26.338 E/ion     (25030): ioctl c0044901 failed with code -1: Invalid argument
+11-14 11:07:26.918 I/AmazonPowerManagerVendorCallback(  637): Wakelock acquired UID:1000 PID:637 Tag:WindowManager
+11-14 11:07:27.022 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:27.022 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:27.022 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:27.567 I/AmazonPowerManagerVendorCallback(  637): Wakelock released UID:1000 PID:637 Tag:WindowManager
+11-14 11:07:27.567 I/vendor.mediatek.hardware.power@2.0-impl(  406): powerHintAsync hint:2, data:0
+11-14 11:07:27.568 I/libPowerHal(  406): 2: legacy set freq: 1989000 -1 1989000 -1
+11-14 11:07:27.719 I/libPowerHal(  406): 2: legacy set freq: -1 -1 -1 -1
+11-14 11:07:28.890 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:28.911 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:28.947 I/thermal_repeater(  465): socket -1
+11-14 11:07:31.912 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:31.927 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:32.030 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:32.030 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:32.030 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:33.947 I/thermal_repeater(  465): socket -1
+11-14 11:07:34.931 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:34.952 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:37.038 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:37.038 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:37.038 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:37.953 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:37.967 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:38.484 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:38.484 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:38.484 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:38.948 I/thermal_repeater(  465): socket -1
+11-14 11:07:40.968 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:40.988 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:42.046 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:42.046 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:42.046 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:43.949 I/thermal_repeater(  465): socket -1
+11-14 11:07:43.989 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:44.004 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:47.008 E/WifiVendorHal(  637): getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-14 11:07:47.028 I/WifiService(  637): getCurrentNetwork uid=10056
+11-14 11:07:47.054 I/thermal_src(  469): recvmsg_expect 4, but get 5 
+11-14 11:07:47.054 E/thermal_src(  469): set_ttj_to_kernel 1:error -1
+11-14 11:07:47.054 I/thermal_src(  469): recvmsg_expect 2, but get 4 
+11-14 11:07:48.273 E/ion     (25034): ioctl c0044901 failed with code -1: Invalid argument

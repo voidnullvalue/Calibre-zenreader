@@ -1,0 +1,169 @@
+{
+  "target": {
+    "url": "http://192.168.88.89:8090/#book_id=1&fmt=MOBI&library_id=library&mode=read_book",
+    "title": "A scanner darkly"
+  },
+  "pages": [
+    {
+      "page": 0,
+      "percent": "5%",
+      "view": {
+        "scrollX": 4800,
+        "scrollY": 0,
+        "scrollW": 65960,
+        "clientW": 1160,
+        "samples": [
+          {
+            "sample": "\u201cGentlemen of the Anaheim Lions Club,\u201d the man at the microphone said, \u201cwe have a wonderful opportunity this afternoon, for, you see, the County of Orange has provided us with the chance to hear from\u2014and then put questions to and of\u2014an unde",
+            "tag": "P"
+          },
+          {
+            "sample": "The scramble suit was an invention of the Bell Laboratories, conjured up by accident by an employee named S. A. Powers. He had, a few years ago, been experimenting with disinhibiting substances affecting neural tissue, and one night, having",
+            "tag": "P"
+          },
+          {
+            "sample": "As the computer looped through its banks, it projected every conceivable eye color, hair color, shape and type of nose, formation of teeth, configuration of facial bone structure\u2014the entire shroudlike membrane took on whatever physical char",
+            "tag": "P"
+          },
+          {
+            "sample": "\u201cWell,\u201d he said, \u201cit isn\u2019t the profits anyhow. It\u2019s something else. What you see happen.\u201d",
+            "tag": "P"
+          }
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "percent": "5%",
+      "view": {
+        "scrollX": 5400,
+        "scrollY": 0,
+        "scrollW": 65960,
+        "clientW": 1160,
+        "samples": [
+          {
+            "sample": "2\u201cGentlemen of the Anaheim Lions Club,\u201d the man at the microphone said, \u201cwe have a wonderful opportunity this afternoon, for, you see, the County of Orange has provided us with the chance to hear from\u2014and then put questions to and of\u2014an und",
+            "tag": "DIV"
+          },
+          {
+            "sample": "\u201cI don\u2019t look like you,\u201d he said. \u201cI can\u2019t afford to. My life depends on it.\u201d Actually, he did not look that different from them. And anyhow, he would have worn what he wore daily anyhow, job or not, life or not. He liked what he wore. But ",
+            "tag": "P"
+          },
+          {
+            "sample": "What really fouled up his sense of who and what he was came when the Man hassled him. When harness bulls, beat cops, or cops in general, any and all, for example, came cruising up slowly to the curb near him in an intimidating manner as he ",
+            "tag": "P"
+          }
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "percent": "5%",
+      "view": {
+        "scrollX": 6000,
+        "scrollY": 0,
+        "scrollW": 65960,
+        "clientW": 1160,
+        "samples": [
+          {
+            "sample": "2\u201cGentlemen of the Anaheim Lions Club,\u201d the man at the microphone said, \u201cwe have a wonderful opportunity this afternoon, for, you see, the County of Orange has provided us with the chance to hear from\u2014and then put questions to and of\u2014an und",
+            "tag": "DIV"
+          },
+          {
+            "sample": "\u201cYou blew it,\u201d his superior the prompter said. \u201cSee me in my office when you get back. Room 430.\u201d",
+            "tag": "P"
+          },
+          {
+            "sample": "He did not feel like returning right away to the Orange County Civic Center and Room 430, so he wandered down one of the commercial streets of Anaheim, inspecting the McDonaldburger stands and car washes and gas stations and Pizza Huts and ",
+            "tag": "P"
+          },
+          {
+            "sample": "What his transaction with Donna, like all those before, added up to was an attempt to thread a path upward via Donna to the supplier she bought from. So his purchases from her gradually grew in quantity. Originally he had coaxed her\u2014if that",
+            "tag": "P"
+          }
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "percent": "5%",
+      "view": {
+        "scrollX": 6600,
+        "scrollY": 0,
+        "scrollW": 65960,
+        "clientW": 1160,
+        "samples": [
+          {
+            "sample": "What am I actually? he asked himself. He wished, momentarily, for his scramble suit. Then, he thought, I could go on being a vague blur and passers-by, street people in general, would applaud. Let\u2019s hear it for the vague blur, he thought, d",
+            "tag": "P"
+          },
+          {
+            "sample": "They had by now, according to their sign, sold the same original burger fifty billion times. He wondered if it was to the same person. Life in Anaheim, California, was a commercial for itself, endlessly replayed. Nothing changed; it just sp",
+            "tag": "P"
+          },
+          {
+            "sample": "What his transaction with Donna, like all those before, added up to was an attempt to thread a path upward via Donna to the supplier she bought from. So his purchases from her gradually grew in quantity. Originally he had coaxed her\u2014if that",
+            "tag": "P"
+          },
+          {
+            "sample": "2\u201cGentlemen of the Anaheim Lions Club,\u201d the man at the microphone said, \u201cwe have a wonderful opportunity this afternoon, for, you see, the County of Orange has provided us with the chance to hear from\u2014and then put questions to and of\u2014an und",
+            "tag": "DIV"
+          }
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "percent": "5%",
+      "view": {
+        "scrollX": 7200,
+        "scrollY": 0,
+        "scrollW": 65960,
+        "clientW": 1160,
+        "samples": [
+          {
+            "sample": "He had, naturally, several other leads at present besides Donna. Other dealers he pressured progressively for larger quantities. But because she was his chick\u2014or anyhow he had hopes in that direction\u2014she was for him the easiest. Visiting he",
+            "tag": "P"
+          },
+          {
+            "sample": "As he and Donna talked, therefore, no one was listening. The playback would come maybe the next day at the earliest. If they discussed anything strikingly illegal, and the monitoring officer caught it, then voiceprints would be made. But al",
+            "tag": "P"
+          },
+          {
+            "sample": "Among fronts, if transactions had to take place over public communications, a fairly good try consisted of masking a large one by an apparently small one. They could deal and deal forever, in fact, in these quantities, without the authoriti",
+            "tag": "P"
+          },
+          {
+            "sample": "html { font-family: sans-serif }A scanner darkly NOVELS BY PHILIP K. DICKClans of the Alphane MoonConfessions of a Crap ArtistThe Cosmic PuppetsCounter-Clock WorldThe Crack in SpaceDeus Irae (with Roger Zelazny)The Divine InvasionDo Android",
+            "tag": "HTML"
+          }
+        ]
+      }
+    },
+    {
+      "page": 5,
+      "percent": "5%",
+      "view": {
+        "scrollX": 7800,
+        "scrollY": 0,
+        "scrollW": 65960,
+        "clientW": 1160,
+        "samples": [
+          {
+            "sample": "\u201cCan I bring the wolf book and show you? It\u2019s by Konrad Lorenz. The back cover, where they tell, says he was the foremost authority on wolves on earth. Oh yeah, one more thing. Your roommates both came into the shop today, Ernie what\u2019s-his-",
+            "tag": "P"
+          },
+          {
+            "sample": "html { font-family: sans-serif }A scanner darkly NOVELS BY PHILIP K. DICKClans of the Alphane MoonConfessions of a Crap ArtistThe Cosmic PuppetsCounter-Clock WorldThe Crack in SpaceDeus Irae (with Roger Zelazny)The Divine InvasionDo Android",
+            "tag": "HTML"
+          },
+          {
+            "sample": "3Charles Freck, too, had been thinking about visiting New-Path. The freakout of Jerry Fabin had gotten to him that much.Seated with Jim Barris in the Fiddler\u2019s Three coffee shop in Santa Ana, he fooled around with his sugar-glazed doughnut ",
+            "tag": "DIV"
+          }
+        ]
+      }
+    }
+  ],
+  "ready_seconds": 3.1
+}

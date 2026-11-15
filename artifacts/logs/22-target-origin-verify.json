@@ -1,0 +1,8 @@
+{
+  "url": "http://192.168.88.89:8090/app/",
+  "title": "library \u00b7 Calibre Zen",
+  "description": "{\"attached\":true,\"empty\":false,\"height\":1758,\"never_attached\":false,\"screenX\":0,\"screenY\":99,\"visible\":true,\"width\":1200}",
+  "evaluated": "{\"status\":200,\"server\":\"calibre 9.18.0\",\"contentType\":\"text/html; charset=UTF-8\",\"responseURL\":\"http://192.168.88.89:8090/app/\",\"origin\":\"http://192.168.88.89:8090\"}",
+  "screenshot": "/tmp/verify-origin.png",
+  "screenshot_bytes": 1979784
+}

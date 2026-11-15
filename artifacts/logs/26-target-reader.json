@@ -1,0 +1,8 @@
+{
+  "url": "http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book",
+  "title": "Blood Test",
+  "description": "{\"attached\":true,\"empty\":false,\"height\":1758,\"never_attached\":false,\"screenX\":0,\"screenY\":99,\"visible\":true,\"width\":1200}",
+  "evaluated": "{\"title\":\"Blood Test\",\"url\":\"http://192.168.88.89:8090/#book_id=1298&bookpos=epubcfi(/2/2/4/2@49.98:50)&fmt=MOBI&library_id=library&mode=read_book\",\"ready\":\"complete\",\"nodes\":657,\"text\":\"\u00a0\\n\u00a0\\n\u00a0\\n\u00a0\\n\u00a0\\n\u00a0\\n0%\\n\u00a0\\n\u00a0\\n\u00a0\\nTap (or right click) for controls\\nTap to turn back\\nTap to turn page\",\"nav\":[\"http://192.168.88.89:8090/#book_id=1298&fmt=MOBI&library_id=library&mode=read_book\"]}",
+  "screenshot": "/tmp/reader.png",
+  "screenshot_bytes": 21008
+}

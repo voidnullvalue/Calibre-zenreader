@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalibReader</string>
+
+    <string name="menu_reload">Reload</string>
+    <string name="menu_settings">Server settings</string>
+    <string name="menu_diagnostics">Server diagnostics</string>
+    <string name="menu_open_browser">Open in browser</string>
+    <string name="menu_copy_url">Copy address</string>
+    <string name="menu_clear_data">Clear site data</string>
+
+    <string name="settings_title">Calibre server</string>
+    <string name="settings_url_label">Server address</string>
+    <string name="settings_url_hint">http://192.168.1.10:8080</string>
+    <string name="settings_help">Enter the address shown by calibre-server / calibre-zen, e.g. http://host:8080 or https://books.example.org. Only this host is allowed inside the app.</string>
+    <string name="settings_save">Save and load</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="settings_test">Test connection</string>
+    <string name="settings_invalid">That address is not valid: %1$s</string>
+    <string name="settings_saved">Server saved. Loading…</string>
+    <string name="settings_cleartext_warning">Unencrypted HTTP: traffic to this host is readable on the network. Prefer HTTPS when the server supports it.</string>
+    <string name="settings_probe_running">Testing…</string>
+
+    <string name="error_title">Cannot reach the library</string>
+    <string name="error_generic">%1$s</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_settings">Server settings</string>
+    <string name="error_ssl">The server certificate is not trusted. The connection was refused.</string>
+
+    <string name="diag_title">Server diagnostics</string>
+    <string name="diag_running">Probing %1$s …</string>
+    <string name="diag_close">Close</string>
+    <string name="diag_no_server">No server configured yet.</string>
+    <string name="toast_data_cleared">Site data cleared</string>
+
+    <string name="toast_download">Downloading %1$s</string>
+    <string name="toast_download_blocked">That download does not come from the configured server.</string>
+    <string name="toast_no_handler">Nothing on this device can open that link.</string>
+    <string name="toast_copied">Address copied</string>
+    <string name="toast_external">Opened in browser</string>
+    <string name="toast_blocked_scheme">Blocked a link that would launch another app.</string>
+    <string name="toast_need_server">Set the Calibre server address first.</string>
+
+    <string name="download_description">Downloaded from your Calibre library</string>
+    <string name="download_channel_name">Library downloads</string>
+    <string name="download_permission_denied">Downloads will not show a notification.</string>
+
+    <string name="a11y_webview">Calibre library</string>
+</resources>
